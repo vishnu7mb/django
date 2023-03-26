@@ -1,0 +1,91 @@
+{% extends 'base1.html' %}
+
+{% block body %}
+{% load static %}
+<div class="container-fluid my -4 px-0" >
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/naruto.jpg" class="d-block w-100" alt="...">
+
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/nezuko0.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/akatsuki.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<div class="container my-4">
+<h1 class="my-3 text-center">select the random stuff given below</h1>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/TR.jpg">
+
+
+            <div class="card-body">
+              <h1 class="card-text" > Tokyo revenger season 2 has been ended with 11 episodes</h1>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/Sg.jpg" class="d-block w-100" alt="...">
+
+
+
+
+
+            <div class="card-body">
+              <h1 class="card-text">selena gomez near to 400 million followers</h1>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/img/J.jpg">
+
+
+            <div class="card-body">
+              <h1 class="card-text" >Jisoo of BLACKPINK has revealed the first poster and official release date of her solo debut project. The 28-year-old member of the all-girl K-pop group announced in a post on Instagram that her solo music will be out on 31 March</h1>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock body %}
